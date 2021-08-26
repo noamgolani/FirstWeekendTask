@@ -1,14 +1,41 @@
+:root {
+  --primary-light: #f3f4f6;
+  --primary-text: rgb(48, 45, 45);
+}
+
 body {
   margin: 0;
 }
 
 #navbar {
   position: fixed;
-  width: 10vw;
-  max-width: 150px;
-  height: 100vh;
-  background-color: blue;
+  width: 15rem;
+  top: 40vh;
+  left: 5vw;
+  background-color: var(--primary-light);
+  padding: 1rem;
 }
+
+#navbar a {
+  text-decoration: none;
+  color: var(--primary-text);
+  display: block;
+  padding-top: 0.5rem;
+}
+
+#navbar a:hover,
+a:focus {
+  color: black;
+}
+
+hr {
+  border: 1px rgb(245, 233, 233) solid;
+}
+
+#navbar a.nav-social {
+  padding: 0;
+}
+
 #main-doc {
   float: right;
   display: flex;
@@ -22,6 +49,7 @@ body {
 #header-section img {
   width: 100%;
   height: auto;
+  display: none;
 }
 
 @media (max-width: 750px) {
