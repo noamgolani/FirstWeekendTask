@@ -10,6 +10,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h1 {
+  letter-spacing: 0.15rem;
+  font-size: 2rem;
+}
+
 #navbar {
   position: fixed;
   width: 15rem;
@@ -23,16 +28,19 @@ body {
   flex-direction: column;
 }
 
-#navbar a {
+a {
   text-decoration: none;
   color: var(--primary-text);
-  display: block;
   padding-bottom: 0.5rem;
 }
 
-#navbar a:hover,
+a:hover,
 a:focus {
   color: #000000;
+}
+
+#navbar a {
+  display: block;
 }
 
 #navbar a.nav-social {
@@ -63,6 +71,15 @@ hr {
 
 header {
   font-weight: 600;
+}
+
+footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: var(--primary-light);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (max-width: 750px) {
