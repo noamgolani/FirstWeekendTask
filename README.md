@@ -29,7 +29,7 @@ Use HTML and CSS to complete this project. Happy coding!
 
 [+] User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
 
-[ ] User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
+[+] User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
 
 [ ] User Story #7: The .main-section elements should contain at least 5 li items total (not each).
 
