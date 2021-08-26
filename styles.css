@@ -135,8 +135,7 @@ footer {
   margin-top: 2rem;
 }
 
-.close-nav,
-.open-nav {
+.nav-click {
   display: none;
 }
 
@@ -147,29 +146,48 @@ footer {
     height: max-content;
     transition: 300ms;
   }
+  #navbar header {
+    color: var(--primary-light);
+  }
   #navbar .nav-links {
     overflow-y: hidden;
   }
-  #navbar .close-nav {
-    position: absolute;
-    right: 1rem;
-    display: inline-block;
-  }
-  .open-nav {
+  .nav-click {
+    z-index: 1;
     position: fixed;
     left: 0;
     top: 0;
-    width: 3rem;
-    height: 3rem;
     background-color: var(--primary-light);
     display: block;
   }
+
+  .nav-click span {
+    display: block;
+    position: relative;
+    height: 1xp;
+    width: 2rem;
+    margin: 0.4rem;
+    border: 0.2rem var(--code-numbers) solid;
+    border-radius: 0.1rem;
+    background-color: var(--code-numbers);
+    transition: 200ms;
+  }
+
+  .arrow span:nth-child(1) {
+    transform-origin: left;
+    transform: translateY(1rem) rotate(-45deg) scaleX(70%);
+  }
+  .arrow span:nth-child(2) {
+    transform: translateX(0.2rem);
+  }
+  .arrow span:nth-child(3) {
+    transform-origin: left;
+    transform: translateY(-1rem) rotate(45deg) scaleX(70%);
+  }
+
   #navbar.hide {
     transform: translateX(-100%);
     transition: 300ms;
-  }
-  #navbar:not(.hide) .open-nav {
-    display: none;
   }
   #main-doc {
     padding-left: 5rem;
