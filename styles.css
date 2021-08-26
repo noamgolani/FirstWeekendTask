@@ -48,6 +48,10 @@ h1 {
   flex-direction: column;
 }
 
+#navbar.hide {
+  display: none;
+}
+
 a,
 .close-nav {
   text-decoration: none;
