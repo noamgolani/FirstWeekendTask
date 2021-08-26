@@ -25,7 +25,7 @@ Use HTML and CSS to complete this project. Happy coding!
 
 [+] User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
 
-[ ] User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
+[+] User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
 
 [ ] User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
 
