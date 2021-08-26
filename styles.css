@@ -10,8 +10,9 @@ body {
 #navbar {
   position: fixed;
   width: 15rem;
-  top: 40vh;
-  left: 5vw;
+  height: 15rem;
+  top: calc(50vh - 7.5rem);
+  left: 5rem;
   background-color: var(--primary-light);
   padding: 1rem;
 }
@@ -25,31 +26,27 @@ body {
 
 #navbar a:hover,
 a:focus {
-  color: black;
-}
-
-hr {
-  border: 1px rgb(245, 233, 233) solid;
+  color: #000000;
 }
 
 #navbar a.nav-social {
   padding: 0;
 }
 
+hr {
+  border: 1px rgb(245, 233, 233) solid;
+}
+
 #main-doc {
-  float: right;
+  padding: 5rem 5rem 5rem 25rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
-#header-section {
-  width: 100vw;
-}
-#header-section img {
-  width: 100%;
-  height: auto;
-  display: none;
+
+.main-section {
+  max-width: 900px;
 }
 
 @media (max-width: 750px) {
