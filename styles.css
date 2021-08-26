@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap");
 
 :root {
-  --primary-light: #f3f4f6;
+  --primary-light: #e9cbcb;
   --primary-text: rgb(48, 45, 45);
 }
 
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -48,12 +49,12 @@ a:focus {
 }
 
 #navbar .nav-links {
-  margin-top: 0.5rem;
-  overflow: scroll;
+  margin: 0.5rem 0 0.5rem 0;
+  overflow-y: scroll;
 }
 
 hr {
-  border: 1px rgb(218, 205, 205) solid;
+  border: 1px rgb(245, 190, 190) solid;
   margin: 0;
 }
 
@@ -67,6 +68,7 @@ hr {
 
 .main-section {
   max-width: 900px;
+  line-height: 2rem;
 }
 
 header {
