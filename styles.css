@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap");
+
 :root {
   --primary-light: #f3f4f6;
   --primary-text: rgb(48, 45, 45);
@@ -5,6 +7,7 @@
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 #navbar {
@@ -15,13 +18,16 @@ body {
   left: 5rem;
   background-color: var(--primary-light);
   padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 #navbar a {
   text-decoration: none;
   color: var(--primary-text);
   display: block;
-  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #navbar a:hover,
@@ -30,11 +36,17 @@ a:focus {
 }
 
 #navbar a.nav-social {
-  padding: 0;
+  padding-top: 0.5rem;
+}
+
+#navbar .nav-links {
+  margin-top: 0.5rem;
+  overflow: scroll;
 }
 
 hr {
-  border: 1px rgb(245, 233, 233) solid;
+  border: 1px rgb(218, 205, 205) solid;
+  margin: 0;
 }
 
 #main-doc {
@@ -47,6 +59,10 @@ hr {
 
 .main-section {
   max-width: 900px;
+}
+
+header {
+  font-weight: 600;
 }
 
 @media (max-width: 750px) {
