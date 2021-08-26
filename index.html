@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<link>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +12,9 @@
 
 <body>
     <div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
-    <nav id="navbar">
+    <div class="open-nav" onclick="toggleMenu()"></div>
+    <nav id="navbar" class="hide">
         <header> Content </header>
-        <div class="open-nav" onclick="toggleMenu()"></div>
         <div class="close-nav" onclick="toggleMenu()">Hide</div>
         <div class="nav-links">
             <a href="#What_is_Vim?" class="nav-link">What is Vim?</a>
