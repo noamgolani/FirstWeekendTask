@@ -4,8 +4,8 @@ _read all the tasks before starting_
 
 ## Your tasks:
 
-- [ ] Fork this repository to your github
-- [ ] With github desktop clone the repo and open it in vs code
+- [+] Fork this repository to your github
+- [+] With github desktop clone the repo and open it in vs code
 - [ ] Fulfill the user stories and get all of the tests to pass
 - [ ] For <strong>each</strong> user story submit a commit to github
 - [ ] Give it your own personal style
@@ -13,7 +13,7 @@ _read all the tasks before starting_
 - [ ] Indent your code!
 - [ ] Make the commit message meaningful
 - [ ] Bonus - Submit issues on your friends repos with improvements suggestions
-- [ ] Bonus - replace the <script> tag with local version of the tests files instead of the url vesrion provided
+- [ ] Bonus - replace the \<script> tag with local version of the tests files instead of the url vesrion provided
 - [ ] Bonus - deploy your project to github pages
 - [ ] Bonus - add local img to your repo and add it to your website
 
