@@ -19,7 +19,7 @@ _read all the tasks before starting_
 
 Use HTML and CSS to complete this project. Happy coding!
 
-[ ] User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
+[+] User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
 
 [ ] User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
 
