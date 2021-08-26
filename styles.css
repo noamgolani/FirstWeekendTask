@@ -18,7 +18,7 @@ code {
   letter-spacing: 0.1rem;
   font-weight: 600;
 }
-code:before {
+code:not(.command):before {
   content: counter(line) ".";
   margin-right: 1rem;
   color: var(--code-numbers);
@@ -93,6 +93,18 @@ hr {
 
 .main-section p {
   max-width: 900px;
+}
+
+ul {
+  list-style: none;
+  max-width: 900px;
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--code-numbers);
+  display: inline-block;
+  width: 1em;
 }
 
 img {
