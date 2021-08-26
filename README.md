@@ -31,7 +31,7 @@ Use HTML and CSS to complete this project. Happy coding!
 
 [+] User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
 
-[ ] User Story #7: The .main-section elements should contain at least 5 li items total (not each).
+[+] User Story #7: The .main-section elements should contain at least 5 li items total (not each).
 
 [ ] User Story #8: I can see a nav element with a corresponding id="navbar".
 
