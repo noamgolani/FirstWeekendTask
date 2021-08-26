@@ -1,8 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 :root {
   --primary-light: #e9cbcb;
   --primary-text: rgb(48, 45, 45);
+  --code-bg: #262626;
+  --code-text: #ffd7af;
+  --code-numbers: #e89d0a;
+}
+
+code {
+  padding: 1rem;
+  background-color: var(--code-bg);
+  color: var(--code-text);
+  counter-increment: line;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+code:before {
+  content: counter(line) ".";
+  margin-right: 1rem;
+  color: var(--code-numbers);
 }
 
 body {
@@ -78,10 +97,10 @@ hr {
 
 img {
   align-self: right;
-  margin: 1rem;
+  margin: 3rem;
   max-width: calc(900px - 2rem);
   height: auto;
-  box-shadow: 0px 0px 1.5rem 1.5rem var(--primary-light);
+  box-shadow: 0px 0px 0.5rem 0.2rem var(--primary-text);
 }
 
 header {
