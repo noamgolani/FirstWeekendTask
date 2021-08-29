@@ -140,6 +140,10 @@ footer {
 }
 
 @media (max-width: 1100px) {
+  #fcc_test_suite_wrapper {
+    display: none;
+  }
+
   #navbar {
     top: 0;
     left: 0;
